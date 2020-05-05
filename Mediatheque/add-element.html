@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'ajout d'élément</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form>
+                    <input type="text" id="fname" name="fname"><br>
+                    <input id="input1" hidden="hidden" placeholder="input data">
+                    <select id="select1">
+                        <option value="-1"></option>
+                        <option value="0">-make your own choice of type</option>
+                        <option value="Music">Music</option>
+                        <option value="Movie">Film</option>
+                        <option value="Game">Jeu</option>
+                        <option value="Book">Book</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <button id="btn-validation" class="btn btn-validation">Validation</button>
+    <script>
+        require('./addElement')
+    </script>
+</body>
+
+</html>

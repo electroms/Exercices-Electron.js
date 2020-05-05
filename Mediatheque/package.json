@@ -1,0 +1,12 @@
+{
+    "name": "mediatheque",
+    "version": "1.0.0",
+    "description": "First Electron App !",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "electron": "^8.2.5"
+    }
+}
